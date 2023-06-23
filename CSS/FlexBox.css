@@ -1,0 +1,50 @@
+.header-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: tomato;
+    font-weight: bold;
+    padding: 20px;
+}
+.footer-container{
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    background: lightgreen;
+    font-weight: bold;
+    padding: 10px;
+}
+.main-container{
+    display: flex;
+    flex-direction: row wrap;
+    font-weight: bold;
+    text-align: center;
+}
+.main-containeritems{
+    background: deepskyblue;
+    text-align: left;
+}
+article{
+    padding: 10px;
+    margin: 10px;
+    background: aqua;
+}
+.sidebarleftitem{background: gold;}
+.sidebarleftitem{background: hotpink;}
+
+.sidebaritem{
+    flex: 1 0 0;
+    display: flex;
+}
+.main-containeritems{
+    flex: 30px;
+}
+.sidebarleftitem{
+    order: 1;
+}
+.main-containeritems{
+    order: 2;
+}
+.sidebarrightitem{
+    order: 3;
+}
